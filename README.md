@@ -1,5 +1,10 @@
 # test common values
 
+Sometimes you need to compare multiple models, either by using random points or specific points to test suitability. It can be important to know after you perfrom an extract value to point what those values are. You can leverage field calculator to test if these models are outputting the same values to a point
+
+
+
+
 Copy and paste the following code into the Calculate Field Code Block:
 ```rb
 def common_test(l1,l2,l3):
